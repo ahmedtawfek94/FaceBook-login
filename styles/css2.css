@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+.header{
+    width: 100%;
+    background-color: #1877f2;
+    height: 10vh;
+    margin-bottom: -3em;
+}
+.word1{
+    color: white;
+}
+form{
+    width: 40%;
+    height: 85vh;
+    background-color: white;
+}
+.lab1, .lab3, .lab5{
+    margin-right: 5em;
+    margin-left: 1em;  
+}
+.form-control{
+    width: 128%;
+    font-size: 14px;
+}
+.fc1{
+    width: 83%;
+}
+.lab3, .lab4{
+    margin-top: -2em;
+}
+.lab4{
+    margin-left: -6em;
+}
+.lab5, .lab6{
+    margin-top: -2em;
+}
+.lab1, .lab2, .lab3, .lab4, .lab5, .lab6, .form-lable, .birth, .gen{
+    color: #1877f2 !important;
+}
+.form-lable1{
+    margin-left: 2em;
+}
+.in{
+    width: 3%;
+    margin-top: -1em;
+}
+.datetime{
+    width: 97%;
+    margin-left: 7em;
+    margin-top: -5em;
+}
+.time{
+    width: 217px;
+    height: 34px;
+    font-size: 15px;
+    padding: 1rem;
+}
+.day{
+    margin-right: 9em;
+}
+@media screen and (max-width: 766px) {
+    body{
+        overflow-x: hidden;
+    }
+    .fc1{
+        width: 92%;
+    }
+    .row{
+        width: 89%;
+        height: 143vh;
+    }
+    .lab1{
+        margin-top: 4em;
+         font-size: 14px;
+         width: 73%;
+    }
+    .lab2{
+        font-size: 14px;
+        width: 73%;
+        margin-left: 1em;
+    }
+    .lab3{
+        font-size: 14px;
+        width: 128%;
+         margin-top: 1em;
+    }
+    .lab4{
+        font-size: 14px;
+    width: 74%;
+    margin-top: 1em;
+    margin-left: 1em;
+    }
+    .lab5{
+        font-size: 14px;
+        width: 74%;
+        margin-top: 1em;
+    }
+    .lab6{
+        font-size: 14px;
+        width: 74%;
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+    .gender{
+        width: 87%;
+    }
+    .day {
+        margin-right: 7em;
+    }
+    .time{
+        width: 182px;
+    }
+}
+@media screen and (min-width: 766px) and (max-width: 992px) {
+    body{
+        overflow-x: hidden;
+    }
+.row{
+    width: 57%;
+}
+}

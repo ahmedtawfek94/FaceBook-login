@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #f0f2f5;
+}
+.main{
+    width: 73%;
+    height: 58vh;
+    background-color: white;
+    margin-top: 7em;
+}
+.line{
+    width: 78%;
+    height: 0.2vh;
+    background-color: gainsboro;
+}
+.form-control {
+    width: 86%;
+    height: 6vh;
+    font-size: 14px;
+}
+.lab1, .lab2, .lab3, .lab4{
+    margin-left: 3em !important;
+}
+.form{
+    margin-bottom: 2em;
+    height: 68vh;
+}
+.lab4{
+    width: 78%;
+}
+.lab5{
+    margin-top: 5em;
+}
+.link1{
+    margin-left: 8em;
+    font-size: 17px;
+}
+.form-check{
+    color: #1877f2;
+}
+.lab5{
+    margin-left: 7em;
+    margin-top: 2em;
+    width: 46%;
+    height: 6vh;
+    background-color: #1ea82c;
+}
+.p1{
+    margin: -24px 0 0 6em;
+    color: grey;
+}
+.final{
+    margin: -30px 2px 0 67px;
+}
+.word1{
+    color: royalblue;
+    font-size: 4em;
+    margin-right: 148px;
+}
+.word2{
+    font-size: 27px;
+    width: 76%;
+    color: grey;
+}
+@media screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .log1{
+        margin-bottom: -9em;
+        margin-left: 10em;
+    }
+    .word1{
+        font-size: 2em;
+        margin-right: 0em;
+    }
+    .word2{
+        font-size: 15px;
+         width: 303%;
+         text-align: center;
+    }
+    .log2{
+        margin-left: 4em;
+    }
+    .link1{
+        font-size: 14px;
+        margin-left: 8em;
+    }
+    .line{
+        margin-bottom: 13px;
+    }
+    .lab5{
+        margin-top: 0em;
+    width: 59%;
+    margin-left: 5em;
+    }
+    .btn-primary{
+        margin-bottom: 0 !important;
+        width: 14em;
+    }
+    .lab5{
+        margin-top: 0em;
+        width: 57%;
+        margin-left: 5em;
+        height: 38px;
+    }
+    .form{
+        height: 73vh;
+    }
+    .final {
+        margin: -30px 2px 0 44px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    body{
+        overflow-x: hidden;
+    }
+    .row{
+        width: 116%;
+        height: 21vh;
+    }
+    .log1{
+        margin-bottom: -9em;
+    margin-left: 10em;
+    }
+    .word1{
+        font-size: 3em;
+        margin-right: 0em;
+    }
+    .word2{
+        font-size: 18px;
+        width: 268%;
+        margin-right: -33em;
+    }
+    .log2{
+        margin-left: 11em;
+    }
+    .link1{
+        margin-left: 6em;
+    }
+    .lab5{
+        margin-top: 0em;
+        width: 59%;
+        margin-left: 5em;
+    }
+    .form{
+        width: 209%;
+        height: 73vh;
+    }
+    .lab1{
+        margin-top: -1em;
+    }
+    .final{   
+    width: 190%;
+    margin-left: 1em;
+    }
+}
+

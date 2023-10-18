@@ -1,0 +1,88 @@
+<!DOCTYPE html>                 
+<html lang="en">
+<head>
+                <!-- Tags of meta  -->
+<meta charset="UTF-8" >
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+                <!-- Tags of fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap" rel="stylesheet">
+                 <!-- my icons -->
+<link href="styles/all.min.css" rel="stylesheet" />
+                  <!-- bootstrap -->
+ <link href="styles/bootstrap.css" rel="stylesheet" />
+                    <!-- my style -->
+<link href="styles/css2.css" rel="stylesheet" />
+<title>Sign Up</title>
+</head>
+<body>  
+    <form class="row g-3 needs-validation shadow " novalidate>
+        <div class="header mt-0 ">
+            <h1 class="word1 text-capitalize fw-bold text-center mt-2">create account</h1>
+        </div>
+        <div class=" lab1 col-md-4">
+          <label for="validationCustom01" class="form-label fw-bold">First name :</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Enter your first name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class=" lab2 col-lg-4  col-md-4">
+          <label for="validationCustom02" class="form-label fw-bold">Last name :</label>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Enter your last name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class=" lab3 col-md-6 ">
+            <label for="validationCustom01" class="form-label fw-bold">Email :</label>
+            <input type="text" class="form-control fc1" id="validationCustom01" placeholder="Enter your email address" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class=" lab4 col-md-4 ">
+            <label for="validationCustom02" class="form-label2 mt-1 mb-1 fw-bold">Phone Number :</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Enter your phone number">
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class=" lab5 col-md-4">
+            <label for="validationCustom01" class="form-label fw-bold">Password :</label>
+            <input type="password" class="form-control" id="validationCustom01" placeholder="Enter your password" minlength="8" maxlength="16" required >
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class=" lab6 col-md-4 ">
+            <label for="validationCustom02" class="form-label fw-bold">Confirm Password :</label>
+            <input type="password" class="form-control" id="validationCustom02" placeholder="Confirm you password" minlength="8" maxlength="16" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        <div class=" gender mt-1 ms-4 d-flex flex-column col-12">
+            <label for="validationCustom02" class="form-label gen fw-bold">Gender :</label>
+            <label class="male ms-4">Male</label>
+            <input class="in " checked type="radio" name="one"/>
+            <label class="female ms-4 ">Female</label>
+            <input class="in" type="radio" name="one"/>
+            </label>
+            <div class="datetime d-flex flex-column align-items-center">
+                <label for="validationCustom02" class="form-label birth fw-bold day">Birthday :</label>
+                <input class="time" type="date"/>
+            </div>
+          </div>
+        </div>
+        <div class=" reg ms-4 col-12">
+            <input class="btn btn-primary" type="reset" value="Reset">
+          <button class="btn btn-primary" type="submit">Register</button>
+        </div>
+      </form>
+    <script src="js/poper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
